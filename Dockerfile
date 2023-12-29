@@ -2,5 +2,5 @@ FROM ubuntu:latest
 
 COPY . /app
 
-EXPOSE 4000
-CMD ["/mjs"]
+EXPOSE 3000
+CMD ["/mjs074135"]
