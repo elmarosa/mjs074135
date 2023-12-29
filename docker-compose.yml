@@ -1,8 +1,8 @@
 version: '3.4'
 
 services:
-  mjs:
-    image: dwitaputri/mjs
+  mjs074135:
+    image: dwitaputri/mjs074135
     build:
       context: .
       dockerfile: ./Dockerfile
