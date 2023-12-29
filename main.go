@@ -1,9 +1,9 @@
 package main
 
-import{
+import(
 	"log"
 	"net/http"
-}
+)
 
 func main(){
 	http.Handle("/", http.FileServer(http.Dir("./static")))
